@@ -23,7 +23,7 @@ Ce premier prototype propose une fonctionnalité de recherche de stages à parti
 Pour utiliser ce prototype, clonez ce dépôt GitHub :
 
 ```bash
-git clone <lien_du_repo>
+git clone https://github.com/Jeanpry/Internity_2.git
 ```
 
 Ensuite, lancez le projet avec Docker :
