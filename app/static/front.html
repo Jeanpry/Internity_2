@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Offres de Stage</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Visualisation des Offres de Stage</h1>
+    </header>
+
+    <div class="filter-container">
+        <input type="text" id="user-query" placeholder="Entrez votre requête...">
+        <button id="apply-filters">Rechercher</button>
+        
+        <select id="filter-location">
+            <option value="">Lieu</option>
+            <!-- Ajoutez des options pour les lieux ici -->
+        </select>
+        <select id="filter-duration">
+            <option value="">Durée</option>
+            <!-- Ajoutez des options pour les durées ici -->
+        </select>
+        <select id="filter-type">
+            <option value="">Type de Stage</option>
+            <!-- Ajoutez des options pour les types de stage ici -->
+        </select>
+    </div>
+
+    <div id="internships-container">
+        <!-- Les offres de stage seront injectées ici -->
+    </div>
+
+    <footer>
+        <p>Projet Full Stack</p>
+    </footer>
+
+    <script src="/static/Script.js"></script>
+</body>
+</html>

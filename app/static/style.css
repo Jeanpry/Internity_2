@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter-container .search-group {
+    display: flex;
+    justify-content: center;
+    width: 80%; /* Ajustez la largeur du groupe de recherche si nécessaire */
+    margin-bottom: 10px; /* Espace entre le groupe de recherche et les filtres */
+}
+
+#user-query {
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    width: 50%; /* Ajustez la largeur de la barre de recherche */
+}
+
+#apply-filters {
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 10px; /* Espacement entre la barre de recherche et le bouton */
+}
+
+#apply-filters:hover {
+    background-color: #003366;
+}
+
+.filter-container .filter-group {
+    display: flex;
+    justify-content: center;
+    width: 80%; /* Ajustez la largeur totale du groupe de filtres */
+}
+
+.filter-container select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    font-size: 16px;
+    width: 20%; /* Ajustez la largeur de chaque filtre */
+}
+
+.internship-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.internship-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    margin-bottom: 10px;
+}
